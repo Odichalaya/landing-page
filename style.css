@@ -1,8 +1,14 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+#button {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1140px;
     /*  */
@@ -45,12 +51,73 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     color: #050038;
 }
 
 .section_one {
     padding-top: 62px;
+}
+
+.section_one #button {
+    margin-top: 10px;
+    width: 440px;
+    height: 51px;
+    border-radius: 32px;
+    background-color: #4262FF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.section_one #button:hover {
+    background-color: #293da0;
+}
+
+.section_one input {
+    margin-top: 46px;
+    display: inline-block;
+    width: 440px;
+    height: 48px;
+    border-radius: 32px;
+    border: 1px solid #9B99AF;
+    resize: none;
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.section_one input:hover {
+    border: 1px solid #37363f;
+}
+
+.small p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #050038;
+}
+
+.small_images {
+    display: flex;
+    align-items: center;
+}
+
+.small_images p {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #050038;
+}
+
+.small_images img {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .section_two h1 {
@@ -140,4 +207,3 @@ footer a {
     color: white;
     text-decoration: none;
 }
-
